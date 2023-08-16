@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int N, min = 10; // Declare integer variable N to store input, and min to store the minimum even digit found (initialize with a value larger than possible)
+    scanf("%d", &N); // Input an integer value and store it in the variable N
+
+    for (; N > 0; N /= 10) { // Start a loop that iterates through each digit of the number
+        int digit = N % 10; // Get the last digit of N using modulo operation
+
+        if (digit % 2 == 0 && digit < min) { // Check if the digit is even and smaller than the current minimum
+            min = digit; // If true, update the minimum value to the current digit
+        }
+    }
+
+    printf("%d", min); // Print the smallest even digit found
+    return 0; // Exit the program
+}
