@@ -1,0 +1,7 @@
+#include <stdio.h> 
+int main() 
+{
+    int maths, english, science, social, language; 
+    scanf("%d %d %d %d %d", &english, &science, &social, &language, &maths);
+    printf("%.2f%%",(english+science+social+language+maths)/5.0);
+}
