@@ -1,0 +1,23 @@
+#include <stdio.h>
+  char b(char a)
+  {
+      if(a>='a'&&a<='z')
+      {
+          return 'A'+(a-'a');
+      }
+      else if(a>='A'&&a<='Z')
+      {
+          return 'a'+(a-'A');
+      }
+      else
+      {
+          return a;
+      }
+  }
+  int main() 
+{
+  char a;
+  scanf("%c",&a);
+  printf("%c",b(a));
+  return 0;
+}
