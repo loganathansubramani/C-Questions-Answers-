@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int X, Y;
+    printf("Enter two integers: ");
+    scanf("%d %d", &X, &Y);
+    // Calculate the results
+    int sum = X + Y;
+    int difference = X - Y;
+    int product = X * Y;
+    float division = (float)X / Y;
+    // Print the results
+    printf("%d+%d=%d\n", X, Y, sum);
+    printf("%d-%d=%d\n", X, Y, difference);
+    printf("%d*%d=%d\n", X, Y, product);
+    printf("%d/%d=%.2f\n", X, Y, division);
+    return 0;
+}
