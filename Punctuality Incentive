@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+  int a,b,count=0,payamount=0;
+  scanf("%d %d",&a,&b);
+  while(count<b)
+  {
+      payamount+=(a+count*200);
+      count++;
+  }
+  printf("%d",payamount);
+}
