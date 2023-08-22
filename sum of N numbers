@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+   int a;
+   scanf("%d",&a);
+   int sum=0,crr;
+   while(a>0)
+   {
+       scanf("%d",&crr);
+       sum+=crr;
+       a--;
+   }
+   printf("%d",sum);
+}
