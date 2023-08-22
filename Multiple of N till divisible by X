@@ -1,0 +1,17 @@
+#include<stdio.h> 
+int main() 
+{
+int N,X; 
+scanf("%d%d",&N,&X); 
+int multiple=N; 
+int run=1; 
+while(run) 
+{
+printf("%d ",multiple); 
+if(multiple%X == 0) 
+{
+run=0; 
+}
+multiple+=N; 
+}
+}
