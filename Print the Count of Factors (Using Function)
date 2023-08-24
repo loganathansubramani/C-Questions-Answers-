@@ -1,0 +1,21 @@
+#include<stdio.h> 
+#include <stdlib.h> 
+int printFactors(int N) 
+{
+    int counter=1,count=0; 
+    while(counter<=N) 
+    {
+        if(N%counter==0) 
+      {
+        count++; 
+      }
+       counter++; 
+    } 
+     printf("%d",count); 
+} 
+int main() 
+{
+    int N; 
+    scanf("%d",&N); 
+    printFactors(N); 
+}
