@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+   int a;
+   float count=0,c=0,b;
+   scanf("%d",&a);
+   while(a>0)
+   {
+       b=a%10;
+       count+=b;
+       c++;
+       a/=10;
+   }
+   printf("%.3f",(count)/c);
+   return 0;
+}
