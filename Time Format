@@ -1,0 +1,9 @@
+#include <stdio.h> 
+#include <stdlib.h> 
+int main() 
+{
+int hh, mm, ss; 
+scanf("%d:%d:%d", &hh, &mm, &ss); 
+printf("%d Hours %d Minutes %d Seconds", hh, mm, ss); 
+return 0; 
+}
