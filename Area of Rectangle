@@ -1,0 +1,8 @@
+#include<stdio.h> 
+int main()
+{
+double length, breadth; 
+scanf("%lf %lf", &length, &breadth); 
+printf("%.4lf", length * breadth); 
+return 0; 
+}
