@@ -1,0 +1,9 @@
+#include <stdio.h> 
+#include <stdlib.h> 
+int main() 
+{
+int side, apothem; 
+scanf("%d%d", &side, &apothem); 
+printf("%.2f", ((5 * side) * apothem)/2.0); 
+return 0; 
+}
