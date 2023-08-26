@@ -1,0 +1,10 @@
+#include<stdio.h> 
+int main() 
+{
+int N, sum, unitDigit, tenthDigit, hundredthDigit; 
+scanf("%d %d", &N, &sum); 
+unitDigit = N % 10; hundredthDigit = (N / 10) % 10; 
+tenthDigit = sum - (hundredthDigit + unitDigit); 
+printf("%d", (N / 100) * 1000 + (hundredthDigit * 100) + (tenthDigit * 10) + (unitDigit)); 
+return 0; 
+}
