@@ -1,0 +1,9 @@
+#include <stdio.h> 
+#include <stdlib.h> 
+int main() 
+{
+int speed; 
+scanf("%d", &speed); 
+printf("%.2f", (speed * 5) / 18.0); 
+return 0; 
+}
