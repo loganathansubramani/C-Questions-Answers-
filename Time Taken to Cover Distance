@@ -1,0 +1,8 @@
+#include<stdio.h> 
+int main()
+{
+int distance, speed; 
+scanf("%d %d", &speed, &distance); 
+printf("%.2lf", (double)distance/speed); 
+return 0; 
+}
