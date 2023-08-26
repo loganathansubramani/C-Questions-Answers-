@@ -1,0 +1,11 @@
+include<stdio.h> 
+int main() 
+{
+int N; 
+scanf("%d", &N); 
+int unitDigit = N % 10; 
+int tenthDigit = (N/10) % 10; 
+int hundredthDigit = (N / 100) % 10; 
+printf("%d", (N/1000) * 1000 + unitDigit * 100 + tenthDigit * 10 + hundredthDigit); 
+return 0; 
+}
