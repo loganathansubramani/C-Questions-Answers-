@@ -1,0 +1,8 @@
+#include<stdio.h> 
+int main()
+{
+double side; 
+scanf("%lf", &side); 
+printf("%.2lf", 4 * side); 
+return 0; 
+}
