@@ -1,0 +1,8 @@
+#include<stdio.h> 
+int main() 
+{
+int discount1, amt1, discount2, amt2, discount3, amt3; 
+scanf("%d %d %d %d %d %d", &discount1, &amt1, &discount2, &amt2, &discount3, &amt3); 
+printf("%.2f", (amt1-(amt1*discount1/100.0)) + (amt2-(amt2*discount2/100.0)) + (amt3-(amt3*discount3/100.0))); 
+return 0; 
+}
